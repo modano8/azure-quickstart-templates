@@ -133,7 +133,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spPreparationModulesURL')]",
-          "wmfVersion": "4.0",
+          "wmfVersion": "5.0",
           "configurationFunction": "[parameters('spPreparationFunction')]",
           "properties": {
             "DNSServer": "[parameters('DNSServer')]",
@@ -220,7 +220,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "modulesURL": "[parameters('spPreparationModulesURL')]",
-          "wmfVersion": "4.0",
+          "wmfVersion": "5.0",
           "configurationFunction": "[parameters('spPreparationFunction')]",
           "properties": {
             "DNSServer": "[parameters('DNSServer')]",
