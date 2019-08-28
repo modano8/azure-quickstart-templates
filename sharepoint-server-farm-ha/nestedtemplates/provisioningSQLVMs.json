@@ -107,13 +107,13 @@
             "version": "latest"
           },
           "osDisk": {
-            "name": "[concat(variables('sqlwVMName'),'_OSDisk')]", 
+            "name": "[concat(parameters('sqlwVMName'),'_OSDisk')]", 
             "caching": "ReadWrite",
             "createOption": "FromImage"
           },
           "dataDisks": [
             {
-              "name": "[concat(variables('sqlwVMName'),'_DataDisk1')]", 
+              "name": "[concat(parameters('sqlwVMName'),'_DataDisk1')]", 
               "caching": "None",
               "createOption": "Empty",
               "diskSizeGB": 128,
