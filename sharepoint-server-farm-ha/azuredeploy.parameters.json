@@ -18,7 +18,7 @@
       "value": "pbdata001"
     },
     "storageAccountType": {
-      "value": "Premium_LRS"
+      "value": "Standard_LRS"
     },
     "virtualNetworkName": {
       "value": "spfarmhaVNET"
